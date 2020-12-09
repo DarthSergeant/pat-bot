@@ -71,6 +71,9 @@ def create_response(sentence, name, parse):
     if '!roll6' in sentence:
         num = ((random.randint(0,5))+1)
         msg = num
+    if sentence == '!witch':
+        num = random.randint(0,(len(witch)-1))
+        msg = witch[num]
     if sentence == '!lasagna':
         num = random.randint(0,(len(lasagna)-1))
         msg = lasagna[num]
