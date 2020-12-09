@@ -1,7 +1,7 @@
 import random
 from database.cat_facts import catfacts
 from database.reactions import reaction
-from database.images import cruise, lasagna
+from database.images import cruise, lasagna, witch
 #Make this one database
 
 bulli = ['nerd', 'shut up', 'kys', 'nurd', 'loser', 'git gud', 'noob', 'newb', 'n00b', 'stupid', 'idiot', 'dumb', 'dum',
